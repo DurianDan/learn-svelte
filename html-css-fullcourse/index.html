@@ -3,101 +3,144 @@
   <head>
     <!-- Contains meta information about the website -->
     <title>This is a page of HTML</title>
-    <link rel="icon" type="image/jpg" href="images/favicon.JPG">
+    <link rel="icon" type="image/jpg" href="images/favicon.JPG" />
   </head>
   <body>
-    <h1>Hi, My name is Huy!</h1>
-
-    <a
-      href="https://github.com/DurianDan"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <img
-        src="images/profile.JPG"
-        height="150"
-        alt="This is a picture of me, in my suite"
-    /></a>
-    <!-- target="_blank" Open New Tab -->
-    <!-- rel="noopener noreferrer" Prevent new tab from editting content of the previous tab -->
-    <p>
+    <header style="background-color: cadetblue;">
+      <h1>Hi, My name is Huy!</h1>
       <a
         href="https://github.com/DurianDan"
         target="_blank"
         rel="noopener noreferrer"
-        title="This is my Profile"
       >
-        My Github Profile
+        <img
+          src="images/profile.JPG"
+          height="200"
+          alt="This is a picture of me, in my suite"
+        />
       </a>
+      <!-- target="_blank" Open New Tab -->
+      <!-- rel="noopener noreferrer" Prevent new tab from editting content of the previous tab -->
+      <p>
+        <a
+          href="https://github.com/DurianDan"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="This is my Profile"
+        >
+          My Github Profile
+        </a>
+        <br />
+        <a href="mailto:huyk25sinh@gmail.com" title="huyk25sinh@gmail.com">
+          Mail to me ;)
+        </a>
+      </p>
+    </header>
+    <main>
+
+      <p>
+        <a
+          href="https://www.youtube.com/watch?v=ZXsQAXx_ao0"
+          title="JUST DO IT!!! YES YOU CAN!!!"
+          target="_blank"
+          rel="noopener noreferrer"
+          >This is my favourite gif</a
+        >
+        <img
+          src="images/justdoit.gif"
+          width="200"
+          alt="Shia Labeouf: Just Do It !"
+        />
+      </p>
+      <p>
+        This is my favourite song: Đam mê (Passion)
+        <audio controls muted>
+          <source src="sounds/DamMe.mp3" type="audio/mpeg" />
+        </audio>
+        <iframe
+          width="200"
+          src="https://www.youtube.com/embed/rC2Ui_Kivqo"
+          title="Đam Mê - Rhymastic"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </p>
       <br />
-      <a href="mailto:huyk25sinh@gmail.com" title="huyk25sinh@gmail.com">
-        Mail to me ;)
-      </a>
-    </p>
+      <!-- Line break <br> -->
+      <hr />
+      <!-- Add horizontal line <hr> -->
+      <h3>Trying different formats of texts</h3>
+      <p>
+        <sup>Hoang Sa</sup> and <mark>Truong Sa</mark> are
+        <u>Vietnam's lands</u>
+      </p>
+      <p>
+        <b>Hoang Sa</b> and <a style="background-color: red">Truong Sa</a> are
+        <big>Vietnam's lands</big>
+      </p>
+      <p>Hoang Sa and <i>Truong Sa</i> are <sub>Vietnam's lands</sub></p>
+      <p>
+        <i><b>Hoang Sa</b></i> and <tt>Truong Sa</tt> are
+        <del>China's</del> Vietnam's lands
+      </p>
+      <hr />
 
-    <p>
-      <a
-        href="https://www.youtube.com/watch?v=ZXsQAXx_ao0"
-        title="JUST DO IT!!! YES YOU CAN!!!"
-        target="_blank"
-        rel="noopener noreferrer"
-        >This is my favourite gif</a
-      >
-      <img
-        src="images/justdoit.gif"
-        width="200"
-        alt="Shia Labeouf: Just Do It !"
+      <h3><"div"> and <"span"> tags</h3>
+      <p><span style="background-color: yellow">This is a span title</span></p>
+      <div style="background-color: lime">This is a div title</div>
+
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      <div style="background-color: yellow">
+        This is a div sentence. it create another block of texts
+      </div>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        <span style="background-color: blue"
+          >This is a span sentence. It stays inline with the previous
+          sentence</span
+        >
+      </p>
+
+      <hr />
+      <h3>Buttons !!! and JavaScript in html</h3>
+      <p>
+        This is the current number:
+        <span id="currentNumber" style="background-color: yellow">0</span>
+      </p>
+      <input
+        id="changeRate"
+        style="width: 200px; background-color: aqua"
+        type="number"
+        placeholder="Increase or Decrease by"
       />
-    </p>
-    <p>
-      This is my favourite song: Đam mê (Passion)
-      <audio controls muted>
-        <source src="sounds/DamMe.mp3" type="audio/mpeg" />
-      </audio>
-      <iframe
-        width="200"
-        src="https://www.youtube.com/embed/rC2Ui_Kivqo"
-        title="Đam Mê - Rhymastic"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-      ></iframe>
-    </p>
-    <br />
-    <!-- Line break <br> -->
-    <hr />
-    <!-- Add horizontal line <hr> -->
-    <h3>Trying different formats of texts</h3>
-    <p><sup>Hoang Sa</sup> and <mark>Truong Sa</mark> are <u>Vietnam's lands</u></p>
-    <p><b>Hoang Sa</b> and <a style="background-color: red;">Truong Sa</a > are <big>Vietnam's lands</big></p>
-    <p>Hoang Sa and <i>Truong Sa</i> are <sub>Vietnam's lands</sub></p>
-    <p><i><b>Hoang Sa</b></i> and <tt>Truong Sa</tt> are <del>China's</del> Vietnam's lands</p>
-    <hr>
+      <button
+        onclick="increaseTheCurrentNumber(true)"
+        style="background-color: blue; font-size: 25px; border-radius: 10px"
+      >
+        Increase
+      </button>
+      <button
+        onclick="increaseTheCurrentNumber(false)"
+        style="background-color: red; font-size: 20px; border-radius: 10px"
+      >
+        Decrease
+      </button>
 
-    <h3><"div"> and <"span"> tags</h3>
-    <p><span style="background-color: yellow;">This is a span title</span></p>
-    <p><div style="background-color: lime;">This is a div title</div></p>
-
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <div style="background-color: yellow;">This is a div sentence. it create another block of texts</div></p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span style="background-color: blue;">This is a span sentence. It stays inline with the previous sentence</span></p>
-
-    <hr>
-    <h3>Buttons !!! and JavaScript in html</h3>
-    <p> This is the current number: <span id="currentNumber" style="background-color: yellow;">0</span></p>
-    <input id="changeRate" style="width: 200px; background-color: aqua;" type="number" placeholder="Increase or Decrease by">
-    <button onclick="increaseTheCurrentNumber(true)" style="background-color: blue; font-size: 25px; border-radius: 10px;">Increase</button>
-    <button onclick="increaseTheCurrentNumber(false)" style="background-color: red; font-size: 20px; border-radius: 10px;">Decrease</button>
-
-    <script>
-      function increaseTheCurrentNumber(isIncrease){
-        const currentNum = Number(document.getElementById("currentNumber").innerHTML)
-        const changeRateInput = document.getElementById("changeRate").value
-        let changeRate = 0
-        if (!isNaN(changeRateInput)){
-          changeRate = Number(changeRateInput)
+      <script>
+        function increaseTheCurrentNumber(isIncrease) {
+          const currentNum = Number(
+            document.getElementById("currentNumber").innerHTML
+          );
+          const changeRateInput = document.getElementById("changeRate").value;
+          let changeRate = 0;
+          if (!isNaN(changeRateInput)) {
+            changeRate = Number(changeRateInput);
+          }
+          document.getElementById("currentNumber").innerHTML =
+            currentNum + (isIncrease ? changeRate : changeRate * -1);
         }
-        document.getElementById("currentNumber").innerHTML = currentNum+(isIncrease?changeRate:changeRate*-1)
-      }
-    </script>
+      </script>
+    </main>
   </body>
 </html>
