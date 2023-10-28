@@ -72,5 +72,26 @@
     <p><b>Hoang Sa</b> and <a style="background-color: red;">Truong Sa</a > are <big>Vietnam's lands</big></p>
     <p>Hoang Sa and <i>Truong Sa</i> are <sub>Vietnam's lands</sub></p>
     <p><i><b>Hoang Sa</b></i> and <tt>Truong Sa</tt> are <del>China's</del> Vietnam's lands</p>
+    <hr>
+
+    <h3><"div"> and <"span"> tags</h3>
+    <p><span style="background-color: yellow;">This is a span title</span></p>
+    <p><div style="background-color: lime;">This is a div title</div></p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <div style="background-color: yellow;">This is a div sentence. it create another block of texts</div></p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span style="background-color: blue;">This is a span sentence. It stays inline with the previous sentence</span></p>
+
+    <hr>
+    <h3>Buttons !!!</h3>
+    <p> This is the current number: <span id="currentNumber" style="background-color: yellow;">0</span></p>
+    <button onclick="increaseTheCurrentNumber()" style="background-color: blue; font-size: 25px; border-radius: 10px;">Increase the number by 1</button>
+    <button onclick="increaseTheCurrentNumber(-1)" style="background-color: red; font-size: 20px; border-radius: 10px;">Decrease the number by 1</button>
+
+    <script>
+      function increaseTheCurrentNumber(number=1){
+        const currentNum = Number(document.getElementById("currentNumber").innerHTML)
+        document.getElementById("currentNumber").innerHTML = currentNum+number
+      }
+    </script>
   </body>
 </html>
