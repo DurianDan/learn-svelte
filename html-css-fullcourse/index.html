@@ -3,6 +3,7 @@
   <head>
     <!-- Contains meta information about the website -->
     <title>This is a page of HTML</title>
+    <link rel="icon" type="image/jpg" href="images/favicon.JPG">
   </head>
   <body>
     <h1>Hi, My name is Huy!</h1>
@@ -35,7 +36,13 @@
     </p>
 
     <p>
-      This is my favourite gif
+      <a
+        href="https://www.youtube.com/watch?v=ZXsQAXx_ao0"
+        title="JUST DO IT!!! YES YOU CAN!!!"
+        target="_blank"
+        rel="noopener noreferrer"
+        >This is my favourite gif</a
+      >
       <img
         src="images/justdoit.gif"
         width="200"
@@ -47,16 +54,23 @@
       <audio controls muted>
         <source src="sounds/DamMe.mp3" type="audio/mpeg" />
       </audio>
+      <iframe
+        width="200"
+        src="https://www.youtube.com/embed/rC2Ui_Kivqo"
+        title="Đam Mê - Rhymastic"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
     </p>
     <br />
     <!-- Line break <br> -->
     <hr />
     <!-- Add horizontal line <hr> -->
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-      exercitationem temporibus consequatur! Corporis animi sunt beataenon odit
-      illo laborum ex, accusamus autem distinctio porro laboriosam at optio
-      nesciunt debitis!
-    </p>
+    <h3>Trying different formats of texts</h3>
+    <p><sup>Hoang Sa</sup> and <mark>Truong Sa</mark> are <u>Vietnam's lands</u></p>
+    <p><b>Hoang Sa</b> and <a style="background-color: red;">Truong Sa</a > are <big>Vietnam's lands</big></p>
+    <p>Hoang Sa and <i>Truong Sa</i> are <sub>Vietnam's lands</sub></p>
+    <p><i><b>Hoang Sa</b></i> and <tt>Truong Sa</tt> are <del>China's</del> Vietnam's lands</p>
   </body>
 </html>
