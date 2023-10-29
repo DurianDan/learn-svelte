@@ -5,39 +5,30 @@
     <title>This is a page of HTML</title>
     <link rel="icon" type="image/jpg" href="images/favicon.JPG" />
   </head>
-  <body>
-    <header style="background-color: cadetblue;">
-      <h1>Hi, My name is Huy!</h1>
-      <a
-        href="https://github.com/DurianDan"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img
-          src="images/profile.JPG"
-          height="200"
-          alt="This is a picture of me, in my suite"
-        />
-      </a>
-      <!-- target="_blank" Open New Tab -->
-      <!-- rel="noopener noreferrer" Prevent new tab from editting content of the previous tab -->
-      <p>
+  <body style="background-color: black; color: white;">
+    <header style="background-color: cadetblue">
+      <h1>
+        HTML tutorial:
+        <a href="https://www.youtube.com/watch?v=HGTJBPNC-Gw"
+          >HTML & CSS Full Course for free 🌎 (2023)</a
+        >
+      </h1>
+    </header>
+    <main>
+      <h1>
+        Hi, My name is Huy!
         <a
           href="https://github.com/DurianDan"
           target="_blank"
           rel="noopener noreferrer"
-          title="This is my Profile"
         >
-          My Github Profile
+          <img
+            src="images/profile.JPG"
+            height="200"
+            alt="This is a picture of me, in my suite"
+          />
         </a>
-        <br />
-        <a href="mailto:huyk25sinh@gmail.com" title="huyk25sinh@gmail.com">
-          Mail to me ;)
-        </a>
-      </p>
-    </header>
-    <main>
-
+      </h1>
       <p>
         <a
           href="https://www.youtube.com/watch?v=ZXsQAXx_ao0"
@@ -76,7 +67,7 @@
         <u>Vietnam's lands</u>
       </p>
       <p>
-        <b>Hoang Sa</b> and <a style="background-color: red">Truong Sa</a> are
+        <b>Hoang Sa</b> and <a style="background-color: red; color: black;">Truong Sa</a> are
         <big>Vietnam's lands</big>
       </p>
       <p>Hoang Sa and <i>Truong Sa</i> are <sub>Vietnam's lands</sub></p>
@@ -87,16 +78,16 @@
       <hr />
 
       <h3><"div"> and <"span"> tags</h3>
-      <p><span style="background-color: yellow">This is a span title</span></p>
-      <div style="background-color: lime">This is a div title</div>
+      <p><span style="background-color: yellow; color: black;">This is a span title</span></p>
+      <div style="background-color: lime; color: black;">This is a div title</div>
 
       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-      <div style="background-color: yellow">
+      <div style="background-color: yellow; color: black;">
         This is a div sentence. it create another block of texts
       </div>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-        <span style="background-color: blue"
+        <span style="background-color: blue; color: black;"
           >This is a span sentence. It stays inline with the previous
           sentence</span
         >
@@ -106,7 +97,7 @@
       <h3>Buttons !!! and JavaScript in html</h3>
       <p>
         This is the current number:
-        <span id="currentNumber" style="background-color: yellow">0</span>
+        <span id="currentNumber" style="background-color: yellow; color: black;">0</span>
       </p>
       <input
         id="changeRate"
@@ -116,13 +107,13 @@
       />
       <button
         onclick="increaseTheCurrentNumber(true)"
-        style="background-color: blue; font-size: 25px; border-radius: 10px"
+        style="background-color: blue; font-size: 25px; border-radius: 10px; color: black;"
       >
         Increase
       </button>
       <button
         onclick="increaseTheCurrentNumber(false)"
-        style="background-color: red; font-size: 20px; border-radius: 10px"
+        style="background-color: red; font-size: 20px; border-radius: 10px; color: black;"
       >
         Decrease
       </button>
@@ -142,5 +133,23 @@
         }
       </script>
     </main>
+    <footer style="background-color: cadetblue; color: black;">
+      <!-- target="_blank" Open New Tab -->
+      <!-- rel="noopener noreferrer" Prevent new tab from editting content of the previous tab -->
+      <p>
+        <a
+          href="https://github.com/DurianDan"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="This is my Profile"
+        >
+          My Github Profile
+        </a>
+        <br />
+        <a href="mailto:huyk25sinh@gmail.com" title="huyk25sinh@gmail.com">
+          Mail to me ;)
+        </a>
+      </p>
+    </footer>
   </body>
 </html>
