@@ -1,0 +1,32 @@
+body{
+    background-color: slategrey;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: black;
+    border-style:double;
+    border-width: .1em;
+    border-color: yellow;
+    border-radius: 20px;
+}
+p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#p1/* add a hashtag "#" to indicates "id" attribute of the element */{
+    color: white;
+    border: 3px solid blue
+}
+#p2{
+    color: lime;
+    border-left: 3px dotted lime;
+    border-top: 3px dashed green;
+}
+#p3{
+    color: yellow
+}
+.odd/* add a point "." to indicate the "class" attributes of the elements*/{
+    color: blue;
+}
